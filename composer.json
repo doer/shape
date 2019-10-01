@@ -1,0 +1,24 @@
+{
+    "name": "php-labs/shape",
+    "description": "一个简单漂亮的终端 UI 库",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "铁岭王力宏",
+            "email": "anoxia@engineer.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shape\\": "./src"
+        },
+        "files": ["./src/helper.php"]
+    },
+    "require": {
+        "php-school/terminal": "^0.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
